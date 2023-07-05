@@ -1,0 +1,40 @@
+.hero {
+
+}
+
+.container {
+
+}
+
+.hero__container {
+    display: flex;
+    gap: 30px;
+}
+
+.hero__left__side {
+    max-width: 279px;
+    width: 100%;
+}
+
+.hero__left__item {
+    padding: 10px;
+}
+
+.hero__left__item:hover {
+    background-color: grey;
+    border-radius: 20px;
+}
+
+.hero__left__link {
+    color: #222;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.hero__right__side {
+    max-width: 931px;
+    width: 100%;
+}

@@ -1,0 +1,54 @@
+.header {
+    background: #eef2f6;
+    padding: 6px 0px 6px 0px;
+    margin-bottom: 10px;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.header__btn__uzs {
+
+}
+
+.header__btn__lang {
+
+}
+
+.header__btn__loc {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.header__btn__lang1 {
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    padding: 4px;
+    background-color: #fff;
+    color: #18181b;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+}
+
+.header__btn__loc__icon {
+    width: 19px;
+    height: 13px;
+}
