@@ -20,13 +20,13 @@ const HeaderBottom = () => {
 
                 <ul className='header__bottom__list'>
                     <li className='header__bottom__item'>
-                        <Link className='header__bottom__link' to="/signin">
+                        <Link className='header__bottom__link' to="/signup">
                             <AiOutlineUser className='header__bottom__icon'/>
                             <p className='header__bottom__text'>{t("signin")}</p>
                         </Link>
                     </li>
                     <li className='header__bottom__item'>
-                        <Link className='header__bottom__link'>
+                        <Link className='header__bottom__link' to="/orders">
                             <BiBorderAll className='header__bottom__icon'/>
                             <p className='header__bottom__text'>{t("orders")}</p>
                         </Link>

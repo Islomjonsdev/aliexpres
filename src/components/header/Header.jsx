@@ -8,15 +8,14 @@ import { changeLanguage } from 'i18next';
 const Header = () => {
   const { t } = useTranslation()
   const [changeLang, setIsChangeLang] = useState(localStorage.getItem("lang"))
-  console.log(changeLang);
   const { i18n } = useTranslation()
   const changeWebSideLang = (evt) => {
       i18n.changeLanguage(evt.target.value || "uz")
   }
   localStorage.getItem("lang")
   const langs = [
-    "uz",
-    "ru",
+    "UZ",
+    "RU",
   ]
   return (
     <div className='header'>

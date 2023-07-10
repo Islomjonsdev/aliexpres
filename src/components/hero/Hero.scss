@@ -1,5 +1,5 @@
 .hero {
-
+    
 }
 
 .container {
@@ -37,4 +37,17 @@
 .hero__right__side {
     max-width: 931px;
     width: 100%;
+}
+
+.hero__right__side__wrapper {
+    padding: 20px;
+    background: #FFF625;
+    border-radius: 12px;
+    height: 160px;
+    margin-bottom: 24px;
+}
+
+.hero__right__side__heading {
+    letter-spacing: -.01em;
+    font-size: 32px;
 }
