@@ -3,5 +3,11 @@
     "money" : "UZS",
     "signin" : "Kirish",
     "orders" : "Buyurtmalar",
-    "cart" : "Savatcha"
+    "cart" : "Savatcha",
+    "signup" : "Ro'yxatdan o'tish",
+    "enteremail" : "Elektron pochtani kiriting",
+    "enterpassword" : "Parolni kiriting",
+    "createaccount" : "Akkount yaratish",
+    "login" : "tizimga kirish",
+    "password" : "parol"
 }

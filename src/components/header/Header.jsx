@@ -17,6 +17,7 @@ const Header = () => {
     "UZ",
     "RU",
   ]
+  console.log(changeWebSideLang);
   return (
     <div className='header'>
         <div className='container'>

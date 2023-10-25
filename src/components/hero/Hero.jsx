@@ -1,4 +1,4 @@
-import React from 'react'
+import { useState } from 'react'
 import "./Hero.scss"
 import heroJson from "../../api/dummiy-data.heroLinks.json"
 import { Link } from 'react-router-dom'
